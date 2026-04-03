@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Heart</title>
+<style>
+  /* Container for heart and text */
+  .love-block {
+    display: flex;
+    flex-direction: column; /* heart on top, text below */
+    align-items: center;
+    margin-top: 50px; /* adjust as needed */
+  }
+
+  /* Heart style */
+  .heart {
+    width: 80px;
+    height: 80px;
+    background: url("heart.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Text below the heart */
+  .heart-text {
+    margin-top: 10px; /* space between heart and text */
+    font-family: 'Cursive', 'Segoe Script', sans-serif; /* nice font */
+    font-size: 20px;
+    color: #ff2d55; /* romantic color */
+    font-weight: bold;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="love-block">
+  <div class="heart"></div>
+  <div class="heart-text">I love u Mony 💖</div>
+</div>
+
+</body>
+</html>
